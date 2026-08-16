@@ -14,8 +14,9 @@ them? (I know I try to!)
   binomial test).
 - Bunching at faster barriers was weaker — fewer athletes reach those times,
   so both the crowds and the statistical power shrink.
-- cube law finding: top-100 men vs women exhibited a 64% power gap = 18% speed gap
-- athletes reach peak speed in their 20s for both men and women
+- Cube law finding: top-100 men average 64% more power than the top-100 women,
+  so the speed gap is only 18%
+- Athletes reach peak speed in their 20s (both men and women)
 
 ## Method
 Scraped the public rankings with pandas (rate-limited), cleaned times to

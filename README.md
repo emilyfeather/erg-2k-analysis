@@ -22,7 +22,7 @@ them? (I know I try to!)
 Scraped the public rankings with pandas (rate-limited), cleaned times to
 seconds and converted to watts, queried with SQLite, plotted with Matplotlib.
 To test bunching I estimated the local trend from data flanking each barrier
-(approximately linear over ±15s), used it as the null proportion, and ran a
+(approximately linear over ±15s), used it as the null distribution, and ran a
 binomial test on the split across the barrier, Bonferroni-corrected for
 multiple comparisons.
 

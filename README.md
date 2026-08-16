@@ -18,7 +18,7 @@ them? (I know I try to!)
 - Cube law finding: top-200 men average 67% more power than the top-200 women,
   so the speed gap is only 18%
 - Athletes reach peak speed at age 20-24 regardless of sex
-<img src="age_curve (1).png" alt="2k times peak at age 20-24" width="400">
+<img src="age_curve.png" alt="2k times peak at age 20-24" width="400">
 
 ## Method
 Scraped all Concept2 ranked times up to 11:40 min with pandas (rate-limited), cleaned

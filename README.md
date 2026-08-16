@@ -9,8 +9,8 @@ athletes target round number goal times, calculate the exact splits, and hold
 them? (I know I try to!)
 
 ## Findings
-- Clear bunching just below 7:00 and 8:00 for men, and 8:00 for women — 2× more
-  athletes in the 5s below the barrier than the 5s above.
+- Clear bunching just below 7:00 and 8:00 for men, and perhaps 8:00 for women — 2× more
+  athletes in the 5s below the barrier than the 5s above. This effect is less obvious in women.
 - Bunching at faster round times was weaker - fewer athletes reach those times,
   so both the crowds and the statistical power shrink.
 - Bunching at lower round times was also weaker - likely that non-elite athletes

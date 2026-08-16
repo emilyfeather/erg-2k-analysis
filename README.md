@@ -1,10 +1,33 @@
 # erg-2k-analysis
 ## Do rowers' 2km erg times bunch at round numbers? An analysis of 4,000 Concept2 2km scores
 
-I extracted the 2,000 fastest 2k times for both female and male rowers from Concept2's 2026 official rankings and have performed some analysis to answer some of my own thoughts and questions.
-
-I wondered whether this dataset would display bunching at times just below round numbers, where athletes had set goals and calculated precise splits to hold throughout the 2000m to beat specific 'goal times' (as I knew this was something I personally do!). It was pretty obvious at the 7 minute mark for the men, and for the 8 minute mark for women - bunching at times faster than this was slightly less obvious as a result of fewer athletes being able to achieve such fast times.
-
 <img src="goal_bunching_by_sex.png" alt="2k times cluster under round-number barriers" width="600">
 
-I performed a test on the bunching at faster times in order to determine whether they were likely to be statistically significant. I figured that the best way of doing this was to essentially zoom in on the data immediately either side of the barrier to determine what the general trend of the data was (which I approximated to be linear), and then use a binomial test to determine whether the fluctuation 2s below the round number was out of the trend.
+I scraped the 2,000 fastest 2k times for men and 2,000 for women from Concept2's
+official 2025 rankings, and asked a question about my own behaviour: do
+athletes target round number goal times, calculate the exact splits, and hold
+them? (I know I try to!)
+
+## Findings
+- Clear bunching just below 7:00 for men and 8:00 for women — [X]× more
+  athletes in the 5s below the barrier than the 5s above (p < 0.001,
+  binomial test).
+- Bunching at faster barriers was weaker — fewer athletes reach those times,
+  so both the crowds and the statistical power shrink.
+- cube law finding: top-100 men vs women exhibited a 64% power gap = 18% speed gap
+- athletes reach peak speed in their 20s for both men and women
+
+## Method
+Scraped the public rankings with pandas (rate-limited), cleaned times to
+seconds and converted to watts, queried with SQLite, plotted with Matplotlib.
+To test bunching I estimated the local trend from data flanking each barrier
+(approximately linear over ±15s), used it as the null proportion, and ran a
+binomial test on the split across the barrier, Bonferroni-corrected for
+multiple comparisons.
+
+## Limitations
+- Rankings are self-selected — athletes choose to rank, so slow tails are
+  underrepresented.
+- The scrape covers the top of each ranking; comparisons are made between groups of
+  different depth (top-100 men contains a greater no. of elite athletes to the top-100
+  women, so not mean vs mean).

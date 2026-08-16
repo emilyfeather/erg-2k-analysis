@@ -11,8 +11,10 @@ them? (I know I try to!)
 ## Findings
 - Clear bunching just below 7:00 and 8:00 for men, and 8:00 for women — 2× more
   athletes in the 5s below the barrier than the 5s above.
-- Bunching at faster barriers was weaker — fewer athletes reach those times,
+- Bunching at faster round times was weaker - fewer athletes reach those times,
   so both the crowds and the statistical power shrink.
+- Bunching at lower round times was also weaker - likely that non-elite athletes
+  do not track splits and have target times as stringently.
 - Cube law finding: top-200 men average 67% more power than the top-200 women,
   so the speed gap is only 18%
 - Athletes reach peak speed at age 20-24 regardless of sex

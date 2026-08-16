@@ -1,4 +1,6 @@
-# erg-rankings-analysis
+# erg-2k-analysis
+## Do rowers' 2km erg times bunch at round numbers? An analysis of 4,000 Concept2 2km scores
+
 I extracted the 2,000 fastest 2k times for both female and male rowers from Concept2's 2026 official rankings and have performed some analysis to answer some of my own thoughts and questions.
 
 I wondered whether this dataset would display bunching at times just below round numbers, where athletes had set goals and calculated precise splits to hold throughout the 2000m to beat specific 'goal times' (as I knew this was something I personally do!). It was pretty obvious at the 7 minute mark for the men, and for the 8 minute mark for women - bunching at times faster than this was slightly less obvious as a result of fewer athletes being able to achieve such fast times.

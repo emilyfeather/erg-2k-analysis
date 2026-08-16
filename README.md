@@ -1,5 +1,5 @@
 # erg-2k-analysis
-## Do rowers' 2km erg times bunch at round numbers? An analysis of 4,000 Concept2 2km scores
+## Do rowers' 2km erg times bunch at round numbers? An analysis of 10,500 Concept2 2km scores
 
 <img src="bunching_by_sex.png" alt="2k times cluster under round-number barriers" width="600">
 

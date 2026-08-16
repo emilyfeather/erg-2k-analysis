@@ -4,7 +4,7 @@
 <img src="goal_bunching_by_sex.png" alt="2k times cluster under round-number barriers" width="600">
 
 I scraped the 2,000 fastest 2k times for men and 2,000 for women from Concept2's
-official 2025 rankings, and asked a question about my own behaviour: do
+official 2025 rankings, and asked a question about my own behaviour: Do
 athletes target round number goal times, calculate the exact splits, and hold
 them? (I know I try to!)
 
